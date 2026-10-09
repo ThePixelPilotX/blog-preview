@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'figtree';
+    src: url(figtree.ttf);
+}
+body {
+    background-color: hsl(47, 88%, 63%);
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    font-family: figtree;
+}
+
+.box {
+    background-color: #FFFFFF; 
+    max-width: 384px;
+    width: 350px;
+    padding: 24px;
+    border-radius: 20px;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 8px 8px 0px hsl(0, 0%, 7%);
+    display: flex;
+    flex-direction: column;
+    height: 530px;
+}
+.box > img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    display: block;
+}
+.box button {
+    background-color:hsl(47, 88%, 63%);
+    font-weight: 800;
+    font-size: 14px;
+    padding: 4px 12px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    align-self: flex-start; 
+    margin-bottom: 12px;
+}
+.date {
+    font-size: 14px;
+    color: hsl(0, 0%, 7%);
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.box h2 {
+    font-size: 24px;
+    color:hsl(0, 0%, 7%); 
+    font-weight: 800;
+    margin-bottom: 12px;
+    line-height: 1.3;
+    cursor: pointer;
+}
+
+.main.text {
+    font-size: 16px;
+    color: hsl(0, 0%, 42%); 
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+.dp {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.dp img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.dp h3 {
+    font-size: 14px;
+    color:hsl(0, 0%, 7%);
+    font-weight: 800;
+}
